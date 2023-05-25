@@ -1,0 +1,44 @@
+# =====================================================================
+# INPUT data file for computing Cumulative Excess Risks (CERs).
+# ---------------------------------------------------------------------
+# Japan Health Physics Society (JHPS), 2022.
+# =====================================================================
+
+# Select target risk: --------------------------------------------------
+# tgt0 (integer); 1 = solid-cancer mortality, 2 = solid-cancer incidence
+  2
+
+# Set latency period: --------------------------------------------------
+# Latency represented by a Sigmoid curve with a parameter (lpy0) in the center of the Sigmoid function
+# lpy0 (float); lpy0 (years) >= 0
+  7.5
+
+# Select step of age for baseline data: --------------------------------
+# stp0 (integer); 
+#   0 = for user-provided baseline data at each one year,
+#   1 = original class values of 5 years, 
+#   2 = values at each one year with linear interpolation,
+#   3 = values at each one year with Piecewise Cubic Hermite Interpolating Polynominal (PCHIP)
+  2
+
+# Select gender: ------------------------------------------------------
+# sex0 (integer); 1 = Male, 2 = Female
+  2
+
+# Set maximum attained age for calculation: ---------------------------
+# maxage0 (integer); 0 < maxage0 (years) =< 100
+  90
+
+# Set risk-transfer weight: -------------------------------------------
+# 1 if choose EAR model
+# wgt0 (float); 0.0 <= wgt0 <= 1.0; ERR (wgt0), EAR(1-wgt0)
+  0.5
+
+# Select output option: -----------------------------------------------
+# mode0 (integer); 0 = outputting the CER data to csv file, 1 >= No output
+  1
+
+# Exposure event: -----------------------------------------------------
+# dose0 in Gy (float), agex0 in years (float)
+  0.100, 10
+# ---------------------------------------------------------------------

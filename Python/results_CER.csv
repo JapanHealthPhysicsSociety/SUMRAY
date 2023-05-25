@@ -1,0 +1,12 @@
+# INPUT DATA:
+# Target = ,All solid-cancer incidence
+# Sex    = ,Female
+# Weight = ,0.5
+# Baseline data = ,Linearly interporated values at each one year
+# Exposure event,Dose,Age at exposure
+#,Gy,Year
+#0,0.1,10.0
+#
+# OUTPUT:
+,Mean,Median,2.5th,97.5th
+CER,  0.037696,  0.037541,  0.031651,  0.044660
