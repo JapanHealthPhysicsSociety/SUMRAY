@@ -1,3 +1,5 @@
+![JHPS_logo](https://github.com/JapanHealthPhysicsSociety/SUMRAY/assets/100466085/26822914-b244-4cb4-8d4e-9fa40a0e89b2)
+
 # **The Radiation Risk Computing Code of JHPS**
 This repository provides R and Python-3 scripts to compute the Cumulative Excess Risks (CERs) of all solid cancers from radiation exposures.
 
