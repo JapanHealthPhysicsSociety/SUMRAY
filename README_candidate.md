@@ -5,7 +5,7 @@ This repository provides R and Python-3 scripts to compute the attributable prob
 
 These scripts were written by the Research Group on the development of cancer risk estimation code associated with radiation exposure (FY2020 - FY2021) of Japan Health Physics Society (JHPS).
 
-*Version 1.0. Released June 1, 2023.*
+*Version 1.0. Released June 30, 2023.*
 
 ![Overview](https://github.com/JapanHealthPhysicsSociety/SUMRAY/assets/100466085/07c4764c-1231-4345-b058-02aae5008011)
 
@@ -14,12 +14,14 @@ These scripts were written by the Research Group on the development of cancer ri
 ![CERs](https://github.com/JapanHealthPhysicsSociety/SUMRAY/assets/100466085/f5030921-2c83-4e4c-a4e6-743233c234c0)
 
 ## Citation
-M Sasaki, K Furukawa, D Satoh, K Shimada, S Kudo, S Takagi, S Takahara, M Kai; SUMRAY: R and Python codes for calculating cancer risk due to radiation exposure of a population. JRPR,2023
+M Sasaki, K Furukawa, D Satoh, K Shimada, S Kudo, S Takagi, S Takahara, M Kai;  
+SUMRAY: R and Python codes for calculating cancer risk due to radiation exposure of a population,  
+Journal of Radiation Protection and Research, 2023.  
 https://***
 
 ## License
-SUMRAY has been released under the [MIT license](https://opensource.org/licenses/mit-license.php)
+SUMRAY has been released under the [MIT license](https://github.com/JapanHealthPhysicsSociety/SUMRAY/blob/main/LICENSE.md)
 
 ## Copyright
-2020-2022 Japan Health Physics Society
+2020-2022 Japan Health Physics Society.  
 E-mail: exec.off@jhps.or.jp
