@@ -1,4 +1,4 @@
-![JHPS_elogo](https://github.com/JapanHealthPhysicsSociety/SUMRAY/assets/100466085/aded1f39-1b04-4876-a8ca-377a3927e815)
+![JHPS_elogo](https://github.com/JapanHealthPhysicsSociety/SUMRAY/assets/100466085/da86d36f-5f97-4b75-bf70-f92a17e744f0)
 
 # **SUMRAY: The Radiation Risk Computing Code of JHPS**
 This repository provides R and Python-3 scripts to compute the attributable probability rates and the Cumulative Excess Risks (CERs) of all solid cancers from radiation exposures.
@@ -7,11 +7,11 @@ These scripts were written by the Research Group on the development of cancer ri
 
 *Version 1.0. Released June 30, 2023.*
 
-![Overview](https://github.com/JapanHealthPhysicsSociety/SUMRAY/assets/100466085/07c4764c-1231-4345-b058-02aae5008011)
+![Overview](https://github.com/JapanHealthPhysicsSociety/SUMRAY/assets/100466085/c566ae07-bf3a-4f60-8806-d8ad405f8aab)
 
-![AttributableProbabilityRate](https://github.com/JapanHealthPhysicsSociety/SUMRAY/assets/100466085/f413c30c-34dd-4762-9245-f3305e66112d)
+![AttributableProbabilityRate](https://github.com/JapanHealthPhysicsSociety/SUMRAY/assets/100466085/edc964bd-458a-4ef1-9b9c-fe11c9ca4cfd)
 
-![CERs](https://github.com/JapanHealthPhysicsSociety/SUMRAY/assets/100466085/f5030921-2c83-4e4c-a4e6-743233c234c0)
+![CERs](https://github.com/JapanHealthPhysicsSociety/SUMRAY/assets/100466085/4cc02023-be04-4faa-9db0-dc2d68213d51)
 
 ## Citation
 M Sasaki, K Furukawa, D Satoh, K Shimada, S Kudo, S Takagi, S Takahara, M Kai;  
