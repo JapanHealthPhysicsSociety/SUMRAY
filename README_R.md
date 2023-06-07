@@ -12,15 +12,21 @@ This library is installed and used in the R-language execution environment. To i
   
 * Installing the *remotes* package to download and install R packages from remote repositories.
 
- `install.packages("remotes")`
+```sh
+install.packages("remotes")
+```
 
 * Installing the *SUMRAY* package stored in the Github repository.  
 
-`remotes::install_github("JapanHealthPhysicsSociety/SUMRAY", subdir="/R")`  
+```sh
+remotes::install_github("JapanHealthPhysicsSociety/SUMRAY", subdir="/R")
+```
 
 * Loading the *SUMRAY* package in your R environment.
 
-`library(SUMRAY)`
+```sh
+library(SUMRAY)
+```
 
 You are now ready to use the library.
   
@@ -30,17 +36,25 @@ For instructions on how to use this library, please refer to the [PDF file](http
 ## Example
 As an example calculation using this SUMRAY library, the cumulative excess risks (CERs) at attained age 90 are calculated for a woman chronically exposed to 0.01 Gy annually from age 18 to 65 with the risk transfers of 0.5 between EAR and ERR models. Here, all items in *Preparation* have been completed.
 
-`res <- CER( agex=18:65, doseGy=rep(0.01,48), sex=2, maxage=90, wgt=c(.5,.5))`
+```sh
+res <- CER( agex=18:65, doseGy=rep(0.01,48), sex=2, maxage=90, wgt=c(.5,.5))
+```  
+
 ![Screenshot1](https://github.com/JapanHealthPhysicsSociety/SUMRAY/assets/100466085/db423b55-5f00-4cee-b8ee-316bb91da513)
 
 In the previous command, the values of the CERs and the attributable probability rates are stored in the variable *res*, which can be referenced in the following command.
 
-`res`
+```sh
+res
+```  
+
 ![Screenshot2](https://github.com/JapanHealthPhysicsSociety/SUMRAY/assets/100466085/708312cc-44b4-4ba5-ab1b-672ee1432de1)
 
 In additon, the following command draws the attributable probability rates stored in the variable *res*.
 
-`plotCER(res)`  
+```sh
+plotCER(res)
+```  
 
 ![Rplot](https://github.com/JapanHealthPhysicsSociety/SUMRAY/assets/100466085/08020d1b-ff47-4520-bc35-67a8d9b85d1b)
 
