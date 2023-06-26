@@ -17,7 +17,7 @@ These scripts were written by the Research Group on the development of cancer ri
 M Sasaki, K Furukawa, D Satoh, K Shimada, S Kudo, S Takagi, S Takahara, M Kai;  
 SUMRAY: R and Python codes for calculating cancer risk due to radiation exposure of a population,  
 Journal of Radiation Protection and Research, 2023.  
-[https://***](https://www.jrpr.org/upload/pdf/jrpr-2022-00213.pdf)
+(https://www.jrpr.org/upload/pdf/jrpr-2022-00213.pdf)
 
 ## License
 SUMRAY has been released under the [MIT license](https://github.com/JapanHealthPhysicsSociety/SUMRAY/blob/main/LICENSE.md)
